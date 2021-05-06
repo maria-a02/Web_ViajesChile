@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: transparent !important;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+nav img {
+    height: 35px;
+}
+
+.iconos {
+    background: turquoise;
+    color: white;
+}
+
+.description {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+}
+
+.card {
+    background: turquoise;
+    font-size: small;
+}
+
+footer {
+    background: turquoise;
+    color: white;
+}
