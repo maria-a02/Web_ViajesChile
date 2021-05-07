@@ -57,8 +57,7 @@ nav img {
 }
 
 .three-col {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
+    display: flex;
     column-count: 3;
 }
 
