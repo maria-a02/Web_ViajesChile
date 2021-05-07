@@ -1,12 +1,19 @@
 body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
+    border: 0;
+}
+
+.borde {
+    border-bottom: 2px solid turquoise;
 }
 
 .navbar {
-    background-color: transparent !important;
+    background-color: turquoise;
     color: white;
     position: fixed;
     top: 0;
@@ -32,7 +39,20 @@ nav img {
     font-size: small;
 }
 
+#destacados img {
+    height: 136.41px;
+    width: 100%;
+}
+
 footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
     background: turquoise;
+    color: white;
+}
+
+footer i {
     color: white;
 }
