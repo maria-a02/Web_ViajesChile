@@ -1,25 +1,29 @@
+/*Página completa*/
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     background-color: black;
     color: white;
     width: auto;
-    margin-right: 0;
     box-sizing: border-box;
 }
 
 body * {
     margin: 0;
-    padding: 0;
     border: 0;
 }
 
+/*Secciones*/
 header {
     padding-top: 35px;
 }
 
 .carousel-imagenes {
     width: 100%;
+}
+
+#presentacion, #destacados, #contacto {
+    padding: 0px 20px 0px 20px;
 }
 
 .borde {

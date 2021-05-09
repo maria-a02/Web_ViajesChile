@@ -12,3 +12,20 @@ $(document).ready(function () {
         }
     });
 });
+
+//Esconder texto tarjetas
+$("#tarjeta1").on("click", function () {
+    $("#textot1").toggle();
+});
+
+$("#tarjeta2").on("click", function () {
+    $("#textot2").toggle();
+});
+
+$("#tarjeta3").on("click", function () {
+    $("#textot3").toggle();
+});
+
+$("#tarjeta4").on("click", function () {
+    $("#textot4").toggle();
+});
