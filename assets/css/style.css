@@ -18,12 +18,14 @@ header {
     padding-top: 35px;
 }
 
-#carousel-imagenes {
+.carousel-imagenes {
     width: 100%;
 }
 
 .borde {
     border-bottom: 2px solid #309ba5;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .navbar {
@@ -45,7 +47,8 @@ nav img {
 .description {
     display: inline-block;
     text-align: justify;
-    padding: 30px;
+    font-size: 25px;
+    padding: 50px;
 }
 
 .description p {
@@ -54,6 +57,7 @@ nav img {
     line-height: 1;
     margin-bottom: 30px;
     text-align: justify;
+    line-height: 25px;
 }
 
 .three-col {
@@ -73,13 +77,16 @@ nav img {
 
 footer {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     background: #309ba5;
     color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 footer i {
     color: white;
+    padding-right: 8px;
 }
