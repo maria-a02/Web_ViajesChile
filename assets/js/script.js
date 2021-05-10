@@ -29,3 +29,21 @@ $("#tarjeta3").on("click", function () {
 $("#tarjeta4").on("click", function () {
     $("#textot4").toggle();
 });
+
+//Tooltip inicio, contacto y social media
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+});
+
+//Alerta vuelos reprogramados
+$("#avion").bind("click", function () {
+    alert("Debido a la contingencia, los vuelos serán reprogramados. ¡Gracias!");
+});
+
+//Alerta reserva
+$("#montana").bind("click", function () {
+    alert("Reserva a través de nuestro formulario o redes sociales.");
+});
+$("#ruta").bind("click", function () {
+    alert("Reserva a través de nuestro formulario o redes sociales.");
+});
